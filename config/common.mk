@@ -89,6 +89,10 @@ PRODUCT_COPY_FILES += \
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/octavi/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+    
+# Charger
+PRODUCT_PACKAGES += \
+    product_charger_res_images    
 
 # Set custom volume steps
 PRODUCT_PROPERTY_OVERRIDES += \
