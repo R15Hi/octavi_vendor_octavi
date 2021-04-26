@@ -16,6 +16,18 @@ PRODUCT_PACKAGES += \
     FodAnimationResources
 endif
 
+# Statusbar Icons
+PRODUCT_PACKAGES += \
+    StrokeSignalOverlay \
+    SneakySignalOverlay \
+    XperiaSignalOverlay
+
+# Wi-Fi Icons
+PRODUCT_PACKAGES += \
+    StrokeWiFiOverlay \
+    SneakyWiFiOverlay \
+    XperiaWiFiOverlay
+    
 # Extra tools
 PRODUCT_PACKAGES += \
     7z \
