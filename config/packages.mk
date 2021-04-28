@@ -20,15 +20,25 @@ endif
 PRODUCT_PACKAGES += \
     StrokeSignalOverlay \
     SneakySignalOverlay \
-    XperiaSignalOverlay
+    XperiaSignalOverlay \
+    ZigZagSignalOverlay \
+    WavySignalOverlay \
+    RoundSignalOverlay \
+    InsideSignalOverlay \
+    BarsSignalOverlay
 
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
     StrokeWiFiOverlay \
     SneakyWiFiOverlay \
-    XperiaWiFiOverlay
-    
-# Extra tools
+    XperiaWiFiOverlay \
+    ZigZagWiFiOverlay \
+    WavyWiFiOverlay \
+    RoundWiFiOverlay \
+    InsideWiFiOverlay \
+    BarsWiFiOverlay
+
+# Extra tools 
 PRODUCT_PACKAGES += \
     7z \
     awk \
